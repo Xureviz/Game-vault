@@ -1,0 +1,15 @@
+# Django
+Django==4.2.5
+
+# Rest framework
+djangorestframework==3.14.0
+django-cors-headers==3.14.0
+
+# Webserver
+gunicorn==20.1.0
+
+# Database
+psycopg2-binary==2.9.5
+
+# Static files
+whitenoise==6.4.0
