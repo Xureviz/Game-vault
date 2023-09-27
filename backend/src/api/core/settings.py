@@ -60,6 +60,7 @@ THIRD_PARTY_APPS = [
 ]
 
 PROJECT_APPS = [
+    "api.core"
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + PROJECT_APPS
@@ -74,7 +75,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'api.urls'
+ROOT_URLCONF = 'api.core.urls'
 
 TEMPLATES = [
     {
@@ -92,7 +93,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'api.wsgi.application'
+WSGI_APPLICATION = 'api.core.wsgi.application'
 
 
 # Database
